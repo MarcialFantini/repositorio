@@ -1,0 +1,84 @@
+:root {
+  --naranjita-color: #ff7948;
+}
+
+.container-inicio {
+  padding-top: 100px;
+  display: flex;
+  font-size: x-large;
+  height: auto;
+  padding-bottom: 100px;
+  background-image: url("./imageInicio/winter-landscape-gd1dcbef47_1920.jpg");
+}
+
+/* primera columna */
+
+.col-persona-contacto {
+  height: auto;
+  width: 20%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.marcial-fantini {
+  background-color: var(--naranjita-color);
+  text-align: center;
+  border-radius: 10%;
+}
+.cargo {
+  color: white;
+}
+.contacto h3 {
+  text-align: center;
+  text-decoration: red solid 2px underline;
+}
+
+/* segunda columna */
+.col-habilidades-perfil {
+  height: 100%;
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+
+.habilidades {
+  background-color: rgba(255, 255, 255, 0.61);
+  border-radius: 5%;
+  padding: 15px;
+  margin-bottom: 79px;
+}
+.habilidades h3 {
+  color: var(--naranjita-color);
+}
+.alineado {
+  text-align: center;
+}
+
+.perfil {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.61);
+  border-radius: 8%;
+}
+.perfil h4 {
+  color: var(--naranjita-color);
+  text-align: center;
+}
+
+/* tercera columna */
+.col-resumen-profecional {
+  height: auto;
+  width: 40%;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.61);
+  border-radius: 10%;
+  padding: 0px 30px 0px 30px;
+}
+.proyectos h3 {
+  color: var(--naranjita-color);
+  text-align: center;
+}
+.habilidades-desarroyadas h4 {
+  color: var(--naranjita-color);
+  text-align: center;
+  text-decoration: underline;
+}
