@@ -39,6 +39,7 @@ const ClimaCompleto = () => {
 
   return (
     <div className="elClima">
+      <div id="clima"></div>
       <Barra
         buscarData={buscarData}
         url={url}

@@ -4,6 +4,9 @@
 }
 body {
   margin: 110px 0 0 0;
+  background-image: url("./winter-landscape-gd1dcbef47_1920.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 :root {
   --naranjita-color: #ff79483b;
@@ -30,7 +33,8 @@ body {
   justify-content: center;
   height: 100px;
   width: 100px;
-  background-image: url("../../assets/images/cubo-navbar.png");
+  background-image: url("./screwdriver-g3c5d77666_640.png");
+  background-position: center;
 }
 
 .navbs {

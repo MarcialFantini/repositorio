@@ -15,6 +15,9 @@ const TareasCompleto = () => {
 
   return (
     <div className="tareasCompleto">
+      <div>
+        <h1 id="tareas">Administrador de tareas</h1>
+      </div>
       <FormTareas
         className="formTarea"
         setTareas={setTareas}
